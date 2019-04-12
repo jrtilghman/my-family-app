@@ -19,8 +19,12 @@ export class FamilyComponent implements OnInit {
     //     albums => (this.albumsArray = albums),
     //     error => console.log("Error: ", error)
     //   );
-    this.aboutme
-      .getFamilyData()
-      .subscribe(familaData => (this.family = familaData["family"]));
+
+    // this.aboutme
+    //   .getFamilyData()
+    //   .subscribe(familaData => (this.family = familaData));
+    console.log("getFamDataResult " + this.aboutme.getFamilyData());
+    this.family = this.aboutme.getFamilyData();
+    //.subscribe(familaData => (this.family = familaData));
   }
 }
