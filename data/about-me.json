@@ -1,0 +1,35 @@
+{
+  "aboutMe": {
+    "family": [
+      {
+        "name": "Devin Tilghman",
+        "age": 1,
+        "relationship": "SON"
+      },
+      {
+        "name": "Ayanna Tilghman",
+        "age": 36,
+        "relationship": "SISTER"
+      },
+      {
+        "name": "Rahsann Turner",
+        "age": 30,
+        "relationship": "COUSIN"
+      }
+    ],
+    "friends": [
+      {
+        "name": "Julius White",
+        "age": 39
+      },
+      {
+        "name": "Ron Taylor",
+        "age": 36
+      },
+      {
+        "name": "Erica Baston",
+        "age": 38
+      }
+    ]
+  }
+}

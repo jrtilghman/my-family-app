@@ -1,0 +1,13 @@
+<h1>FRIENDS!</h1>
+<div class="container">
+  <div class="card-deck">
+    <div *ngFor="let friend of friends">
+      <div class="card" [ngStyle]="{ 'background-color': 'red' }">
+        <div class="card-body">
+          <h4 class="card-title"></h4>
+          Name: {{ friend.name }} Age: {{ friend.age }} years old
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

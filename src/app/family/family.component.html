@@ -1,0 +1,16 @@
+<h1>FAMILY!</h1>
+<div class="container">
+  <div class="card-deck">
+    <div *ngFor="let member of family">
+      <div class="card" [ngStyle]="{ 'background-color': 'gold' }">
+        <div class="card-body">
+          <h4 class="card-title">{{ member.relationship }}</h4>
+          Name: {{ member.name }} <br />
+          Age: {{ member.age }} year<span *ngIf="member.age > 1">s</span>
+          old
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<br />
